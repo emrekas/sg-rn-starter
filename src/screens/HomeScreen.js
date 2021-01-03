@@ -14,11 +14,18 @@ const HomeScreen = ({ navigation }) => {
         title="Go to List Demo"
         onPress={() => navigate('FlatList')}
       />
+      <Button
+        title="Go to Images"
+        onPress={() => navigate('Image')}
+      />
     </View >
   );
 };
 
 const styles = StyleSheet.create({
+  button: {
+    width: "80%"
+  },
   text: {
     fontSize: 30
   }
