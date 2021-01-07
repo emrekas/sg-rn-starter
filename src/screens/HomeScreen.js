@@ -47,6 +47,8 @@ const styles = StyleSheet.create({
     width: "80%"
   },
   buttonContainer: {
+    flex: 1,
+    alignItems: 'center',
     justifyContent: 'space-around'
   },
   text: {
